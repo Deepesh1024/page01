@@ -1,7 +1,86 @@
-!Doctype HTML
-<html>
-    <title>SoME</title>
-    <body>
-        <a href="https://deepesh1024-interview-app06-videouploader-2ikglm.streamlit.app/">Interview Tool</a>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoME - Interview Tool</title>
+    <style>
+        /* Reset some default styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            height: 100%;
+        }
+
+        /* Background with gradient */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+        }
+
+        /* Card container for content */
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px 40px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .card h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .card p {
+            font-size: 1rem;
+            margin-bottom: 30px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Link button */
+        .card a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: #2575fc;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .card a:hover {
+            background: #6a11cb;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+            transform: scale(1.05);
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .card h1 {
+                font-size: 2rem;
+            }
+
+            .card a {
+                font-size: 1rem;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Welcome to the Interview Tool</h1>
+        <p>Click below to explore the state-of-the-art Interview Tool, designed to revolutionize the way you conduct interviews.</p>
+        <a href="https://deepesh1024-interview-app06-videouploader-2ikglm.streamlit.app/" target="_blank">Visit Interview Tool</a>
+    </div>
+</body>
 </html>
